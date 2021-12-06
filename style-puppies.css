@@ -1,0 +1,117 @@
+/* css template*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Zen+Antique&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: honeydew;
+}
+
+h1{
+	font-family: 'Zen Antique', sans-serif;
+	text-align: center;
+
+}
+/* Vertical Nav bar*/
+
+nav{
+	padding-top: 10px;
+	text-align: center;
+	background-color: pink;
+	border-bottom: solid;
+	border-top: solid;
+	margin-bottom: 10px;
+}
+i.fa{
+	color: purple;
+	font-size: 100px;
+}
+footer p a{
+	font-size: 30px;
+}
+nav ul{
+	list-style-type: :none;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: purple;
+}
+nav a:visited{
+	color: lavender
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: black;
+
+}
+main{
+	margin: 0 auto;
+	max-width: 1200px;
+
+}
+footer{
+	text-align: center;
+	background-color: lightblue;
+}
+
+
+/* spaniel styles */
+.spanhero{
+	background-image: url(images/spanner.jpg);
+	height: 475px;
+	width: 1200px;
+	background-size: cover;
+	background-position: center;
+	color: black;
+	padding: 10px 10px 10px 30px;
+	text-shadow: 2px 2px white;
+}
+
+.corgi{
+
+}
+/*paragraph*/
+h2{
+	font-size: 50px;
+	font-weight: bold;
+
+}
+h3{
+	font-weight: bold;
+	line-height: 1px;
+
+}
+h5{
+	margin-top:  30px;
+	margin-left: 50px;
+	line-height: 40px;
+	border-left: solid;
+	padding-left: 10px;
+	margin-bottom: 30px;
+}
+h6{
+	text-align: center;
+	background-color: lightblue;
+	padding-bottom: 10px;
+}
+/* For tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+}
+
+/* For Phones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Animals Photography</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">  <!-- bootstrap stylesheet -->
+	<link rel="stylesheet" href="style.css"> <!-- base stylesheet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- font awesome -->
+	<link rel="stylesheet" type="text/css" href="my-css-framework.css"> <!-- fonts -->
+</head>
+<body>
+	<h1>Animals Photography</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio.html">Photos</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<!-- bootstrap table -->
+		<div class="container-fluid">
+			<div class="row">
+				<!-- spider code -->
+				<div class="col-sm-12"><img class="cute-spider" src="images/peter.jpg" alt="cute hairy little spider" height="400" width="1200"></img></div>
+				<div class="col-sm-2"><i class="fa fa-camera-retro" aria-hidden="true"></i></div>
+				<div class="col-sm-6"><p>The website features photographs of animals from Pixabay.com. The key to animal photography is patience. It can take a long time to get the right lighting and the best view of the animal. When photographing animals, you do not have a lot of control...you need to wait for them.</p>
+
+				<div class="gallery">
+   					<div class="preview">
+       					<img id="preview" src="images/MPH.jpg" style="display:block;margin:0 auto;" alt=""  height="480" width="640"/>
+       					<!-- Small Gallery -->
+   					 </div>
+    					<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+       					<img onclick="document.getElementById('preview').src=document.getElementById('bunny').src" id="bunny" src="images/chungus.jpg" alt="A fluffy bunny" />
+       					<img onclick="document.getElementById('preview').src= document.getElementById('goat').src;" id="goat" src="images/baa.jpg" alt="A white goat"  />
+     			    	<img onclick="document.getElementById('preview').src = document.getElementById('eagle').src;" id="fox" src="images/free.jpg" alt="A red fox" />
+        				<img onclick="document.getElementById('preview').src = document.getElementById('eagle').src;" id="eagle" src="images/MPH.jpg" alt="A bald eagle" />
+        				<img onclick="document.getElementById('preview').src = document.getElementById('otter').src;" id="otter" src="images/bottom.jpg" alt="An otter"  />
+        				<img onclick="document.getElementById('preview').src = document.getElementById('frog').src;" id="frog" src="images/wednesday.jpg" alt="A green tree frog" />
+        				<img onclick="document.getElementById('preview').src = document.getElementById('stag').src;" id="stag" src="images/beaststar.jpg" alt="A wild stag" />
+       					<img onclick="document.getElementById('preview').src = document.getElementById('bison').src;" id="bison" src="images/dad-joke.jpg" alt="A brown bison" />
+       					<img onclick="document.getElementById('preview').src = document.getElementById('hedgehog').src;" id="hedgehog" src="images/sanic.jpg" alt="A small hedgehog" />
+       					<img onclick="document.getElementById('preview').src = document.getElementById('turtle').src;" id="turtle" src="images/polnareff.jpg" alt="An old turtle" />
+       					<img onclick="document.getElementById('preview').src = document.getElementById('lizard').src;" id="lizard" src="images/hue.jpg" alt="A blue lizard" />
+       					<img onclick="document.getElementById('preview').src = document.getElementById('peacock').src;" id="peacock" src="images/peecock.jpg" alt="A colorful peacock" />
+    				</div>
+				</div>
+			</div>
+		</div>
+	</table>
+	</main>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+					<p><a href="https://www.facebook.com/Mikazeprime" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+						Check me out!</a></p>
+					</div>
+					<div class="col-sm-4">
+					<p><a href="https://twitter.com/MikazePrime"><i class="fa fa-twitter-square" aria-hidden="true"></i>
+						Read my thoughts!</a></p>
+					</div>
+					<div class="col-sm-4">
+					<p><a href="https://steamcommunity.com/id/silverdaggers"><i class="fa fa-steam-square" aria-hidden="true"></i>Check out what games I play!</a></p>
+				</div>
+			</div>
+		</div>
+		<small class="copyright">&copy; White Buffallo LLC.</small>
+	</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+</body>
+</html>

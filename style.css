@@ -1,0 +1,110 @@
+/* css template*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Zen+Antique&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: #8261ab;
+	font-size: 20px;
+}
+
+nav{
+	font-family: 'Zen Antique', sans-serif;
+	background-color: gold;
+	text-align: center;
+	border-top: solid;
+	margin: 0 auto;
+}
+/* icon */
+i.fa{
+	color: ;
+	font-size: 150px;
+}
+/* Vertical Nav bar*/
+
+nav ul{
+	list-style-type: :none;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: purple;
+}
+nav a:visited{
+	color: skyblue;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: black;
+}
+/* small gallery */
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+/* code for the images*/
+
+cute-spider{
+	max-width: 100%;
+	margin: 0	solid;
+	display: block;
+	height: auto;
+
+}
+.copyright{
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+}
+footer {
+    color: white;
+    background-color: #34273C;
+    margin: 40px 0 0 0;
+    display: block;
+}
+
+/* For tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* For Phones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}

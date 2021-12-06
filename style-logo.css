@@ -1,0 +1,148 @@
+/* css template*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Zen+Antique&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: lightcyan	;
+}
+
+nav{
+	font-family: 'Zen Antique', sans-serif;
+	margin: 0 auto;
+	background-color: darkcyan;
+	border-top: solid;
+	border-bottom: solid;
+	padding-left: 35em;
+}
+
+.intro
+{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 40px;
+}
+.intro-2{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 40px;
+}
+h2{
+	text-align: center;
+}
+.gallery{
+	display: block;
+	margin-right: 250px;
+	height: 500px;
+	width: 600px;
+	background: url(images/gallery.png);
+}
+.puppies{
+	display: block;
+	margin-left: 250px;
+	height: 500px;
+	width: 600px;
+	background: url(images/puppies.png);
+}
+.me{
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+    height: 200px;
+    background: url("images/me.png") no-repeat;
+}
+.me:hover {
+    background: url("images/rick.gif") no-repeat;
+    width: 200px;
+    height: 200px;
+}
+footer{
+	text-align: center;
+	background-color: darkcyan;
+}
+}
+.copyright{
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.container-fluid{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+}
+.links{
+	color: black;
+	font-size: 50px;
+
+}
+/* icon style code */
+i.fa{
+	color: black;
+	font-size: 100px;
+}
+
+
+/* icon text */
+footer p a:link{
+	color: purple;
+	font-size: 25px;
+}
+footer p a:visited{
+	color: purple;
+}
+footer p a:hover{
+	color: gray;
+}
+footer p a:active{
+	color: black;
+}
+/* Vertical Nav bar*/
+
+nav ul{
+	list-style-type: :none;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: purple;
+}
+nav a:visited{
+	color: pink;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: black;
+}
+.logo{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 10px;
+}
+main{
+	max-width: 1200px;
+	margin: 30px auto;
+}
+/* For tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* For Phones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
